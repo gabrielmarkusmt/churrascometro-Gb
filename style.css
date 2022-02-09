@@ -1,0 +1,84 @@
+
+@font-face {
+    font-family: montserrat;
+    src: url(./fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: montserratbold;
+    src: url(./fonts/Montserrat-Bold.ttf);
+
+}
+
+@font-face {
+    font-family: montserratxbold;
+    src: url(./fonts/Montserrat-ExtraBold.ttf);
+
+}
+
+body{
+    background-color: #2b0430;
+}
+
+.container{
+    background-image: url(./img/back-container.jpg);
+    background-position: center;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: montserratbold;
+    text-align: center;
+    border: solid 3px #111;
+    box-shadow: 3px 2px #2a042e;
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 0;
+    font-size: 26px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 35px;
+    font-family: montserratxbold;
+    color: aliceblue;
+    text-align: center;
+}
+
+input{
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+  
+}
+
+button{
+    color: aliceblue;
+    font-family: montserratbold;
+    background-color: #8338ec;
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    padding: 5px;
+    margin: 10px;
+    border: solid 2px #333;
+    box-shadow: 2px 2px #777;
+}
+
+button:hover{
+    background-color: #4cc9f0;
+    color: #111111;
+}
+button:active{
+    box-shadow: none;
+}
+
